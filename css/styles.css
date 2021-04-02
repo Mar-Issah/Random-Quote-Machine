@@ -1,0 +1,61 @@
+/*=====================
+ GLOBAL 
+======================*/
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+	/* ---------theme colors (varibale)---------- */
+	/* --clr-gray: #bdb8b1;
+	--text-curry: #cc8523;
+	--text-curry2: rgb(205, 130, 35);
+	--clr-blue: #231a9c;
+	--clr-skyblue: #a1c9d4;
+	--transition: all 0.5s linear;
+	--clr-offwhite: #f2f2f2;
+	--b-radius: 0.5rem;
+	--clr-white: #fff;
+	--clr-black: #000000;
+	--b-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--ff-open-sans: "Open Sans", sans-serif; 
+}*/
+
+
+/* *,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+
+/* body {
+	line-height: 1.5;
+	font-size: 0.875rem;
+	font-family: var(--ff-open-sans);
+	color: var(--text-curry);
+} */
+
+/*=====================
+ FOOTER 
+======================*/
+
+/* footer {
+	display: block;
+	width: 100%;
+	background: var(--clr-gray);
+	text-align: center;
+	padding: 1.5rem 0.5rem;
+	color: var(--text-curry);
+	font-size: 0.95rem;
+} */
+
+
+/*=====================
+ MEDIA 
+======================*/
+
+/* @media (min-width: 900px) {
+	body {
+		font-size: 1.5rem;
+	}
+} */

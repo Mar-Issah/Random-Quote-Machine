@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display&family=Open+Sans+Condensed:ital,wght@1,300&display=swap");
+#signature a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#quote-box {
+  background-color: #f2f2f2;
+  max-width: 650px;
+  height: auto;
+  border-radius: 0.5rem 3rem;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.fab {
+  font-size: 2rem;
+  border-radius: 0.3rem;
+}
+
+#text {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 1.7rem;
+  padding: 1rem 2rem;
+}
+
+#author {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.1rem;
+}
+
+#tweet-quote {
+  font-size: 1.5rem;
+  color: #f2f2f2;
+}
+
+#new-quote {
+  font-family: "Hammersmith One", sans-serif;
+  border-radius: 0.6rem;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+#signature, strong {
+  color: white;
+  font-family: "Hammersmith One", sans-serif;
+  margin-top: 2rem;
+  letter-spacing: 0.15rem;
+}
+
+.bgFade {
+  -webkit-transition: background-color 1.5s;
+  transition: background-color 1.5s;
+}
+/*# sourceMappingURL=style.css.map */

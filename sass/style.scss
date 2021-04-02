@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+
+// VARIABLES
+$ff-hammersmith: 'Hammersmith One',
+sans-serif;
+$ff-open-sans: 'Open Sans Condensed',
+sans-serif;
+$transition: all 0.5s linear;
+$box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+$border-radius: 0.5rem 3rem;
+$offwhite: #f2f2f2;
+
+
+#signature a{
+    text-decoration: none;
+    
+}
+.container-fluid{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#quote-box{
+    background-color: $offwhite;
+    max-width: 650px;
+    height: auto;
+    border-radius: $border-radius; 
+    box-shadow: $box-shadow;
+}
+
+.fab{
+    font-size: 2rem;
+     border-radius: 0.3rem;
+}
+
+#text{
+font-family: $ff-hammersmith;
+  font-size: 1.7rem;
+  padding: 1rem 2rem;
+    
+}
+
+#author{
+    font-family: $ff-open-sans;
+    font-size: 1.1rem;
+}
+
+
+#tweet-quote{
+    font-size: 1.5rem;
+    color: $offwhite;
+   
+}
+
+#new-quote{
+    font-family: $ff-hammersmith;
+    border-radius: 0.6rem;
+  box-shadow: $box-shadow;
+  font-size: 1.1rem;
+   cursor: pointer;
+   
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+#signature, strong {
+    color: white;
+    font-family: $ff-hammersmith;
+    margin-top: 2rem;
+    letter-spacing: 0.15rem;
+}
+
+.bgFade {
+    transition: background-color 1.5s;
+    
+}
